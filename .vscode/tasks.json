@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "/usr/bin/R",
+    "showOutput": "always",
+    "args": [
+        "--no-restore",
+        "--no-save",
+        "--quiet",
+        "--file=${file}"
+    ]
+}
