@@ -1,0 +1,10 @@
+library("Rcpp")
+library("RcppArmadillo")
+sourceCpp("01_data.cpp")
+
+print(a1(diag(2)))
+print(a2(1:2))
+print(a3(diag(2)))
+print(a4(diag(2)))
+print(a5(matrix(0, nrow=2, ncol=3)))
+print(a7(diag(2)))
